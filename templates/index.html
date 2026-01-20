@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF to PowerPoint Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="page">
+    <div class="card">
+        <h1>PDF to PowerPoint Converter</h1>
+        <p class="subtitle">
+            Convert PDF files to fully editable PowerPoint presentations.
+        </p>
+
+        <form method="POST" enctype="multipart/form-data">
+            <label class="upload-box">
+                <input type="file" name="file" accept=".pdf" required>
+
+                <div class="upload-content">
+                    <div class="icon">📄</div>
+                    <div class="text">
+                        <strong>Drop PDF file here</strong>
+                        <span>or click to choose file</span>
+                    </div>
+                </div>
+            </label>
+
+            <button type="submit">Convert to PPT</button>
+        </form>
+
+        <p class="footer-text">
+            Secure • Fast • Free
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
